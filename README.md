@@ -1,7 +1,7 @@
 # banana
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-06-05 at 03 54 59](https://github.com/dnzhelloo/banana/assets/122128660/c56eae08-e780-4f67-b581-83825593d9ce)
-![Simulator Screenshot - iPhone 14 Pro - 2023-06-05 at 03 54 49](https://github.com/dnzhelloo/banana/assets/122128660/d6d47071-474e-4ec7-adc9-1a2a6fde0b72)
+![Simulator Screenshot - iPhone 14 Pro - 2023-06-05 at 03 54 59](https://github.com/dnzhelloo/banana/assets/122128660/c56eae08-e780-4f67-b581-83825593d9ce) ![Simulator Screenshot - iPhone 14 Pro - 2023-06-05 at 03 54 49](https://github.com/dnzhelloo/banana/assets/122128660/d6d47071-474e-4ec7-adc9-1a2a6fde0b72)
+
 
 
 
