@@ -9,14 +9,14 @@
 import Foundation
 
 // MARK: - News
-struct News: Decodable {
+struct News: Decodable,Hashable {
     let status: String
     let totalResults: Int
     let articles: [Article]
 }
 
 // MARK: - Article
-struct Article: Decodable {
+struct Article: Decodable,Hashable {
     let source: Source
     let author: String?
     let title: String
@@ -28,7 +28,7 @@ struct Article: Decodable {
 }
 
 // MARK: - Source
-struct Source: Decodable {
+struct Source: Decodable,Hashable {
     let id: String?
     let name: String
 }

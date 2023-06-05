@@ -11,13 +11,12 @@ class NewsService{
     
     let baseURL = "https://newsapi.org/v2/"
     
-    func downloadNews(for country:String,completion:@escaping([Article]?)->Void){
+    func downloadNews(page:Int,completion:@escaping([Article]?)->Void){
         
-        let endpoint = baseURL + "top-headlines?country=\(country)&apiKey=007c8e0b92e04866a999be8d741136bf"
+        let endpoint = baseURL + "everything?q=apple&page=\(page)&apiKey=007c8e0b92e04866a999be8d741136bf"
         guard let url = URL(string: endpoint) else {return}
         
         NetworkManager.shared.download(url: url) { result in
-        
             switch result{
             case .success(let data):
                 completion(self.handleWithData(data: data))
@@ -27,6 +26,22 @@ class NewsService{
         }
     }
     
+//    func downloadEverything(for topic:String,page:Int,completion:@escaping([Article]?)->Void){
+//
+//        let endpoint = baseURL + "everything?q=\(topic)&page=\(page)&apiKey=007c8e0b92e04866a999be8d741136bf"
+//        guard let url = URL(string: endpoint) else {return}
+//
+//        NetworkManager.shared.download(url: url) { result in
+//            switch result{
+//            case .success(let data):
+//                completion(self.handleWithData(data: data))
+//            case .failure(let error):
+//                self.handleWithError(error: error)
+//            }
+//        }
+//    }
+//
+//
     private func handleWithData(data:Data)->[Article]?{
         do{
             let decoder = JSONDecoder()

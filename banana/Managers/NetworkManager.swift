@@ -5,11 +5,14 @@
 //  Created by Deniz on 4.06.2023.
 //
 
-import Foundation
+import UIKit
 
 
 class NetworkManager{
+    
     static let shared = NetworkManager()
+    let cache = NSCache<NSString, UIImage>()
+    
     private init(){}
     
     func download(url:URL,completion:@escaping(Result<Data,Error>)->Void){
