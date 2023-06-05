@@ -1,8 +1,8 @@
 # banana
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-06-05 at 03 54 49](https://github.com/dnzhelloo/banana/assets/122128660/5cf15682-354f-4dd8-a2b5-e7ad532a6441)
+![Simulator Screenshot - iPhone 14 Pro - 2023-06-05 at 03 54 59](https://github.com/dnzhelloo/banana/assets/122128660/c56eae08-e780-4f67-b581-83825593d9ce)
+![Simulator Screenshot - iPhone 14 Pro - 2023-06-05 at 03 54 49](https://github.com/dnzhelloo/banana/assets/122128660/d6d47071-474e-4ec7-adc9-1a2a6fde0b72)
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-06-05 at 03 54 59](https://github.com/dnzhelloo/banana/assets/122128660/4185ec05-aeca-457d-9c2f-a5f519254320)
 
 
 News App
